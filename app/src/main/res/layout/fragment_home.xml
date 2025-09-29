@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/tvSaldo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Saldo Simpanan: Rp 0"
+        android:textColor="@color/text_primary"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvPinjaman"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pinjaman Berjalan: Rp 0"
+        android:textColor="@color/text_secondary"
+        android:layout_marginTop="10dp"/>
+
+    <ProgressBar
+        android:id="@+id/progressPinjaman"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:progressTint="@color/primary_green"
+        android:progress="30"
+        android:max="100"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>

@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@color/background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Simpanan Wajib (10% Gaji): Rp 0"
+        android:textColor="@color/text_primary"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Simpanan Sukarela: Rp 0"
+        android:textColor="@color/text_secondary"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/inputSukarela"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan nominal sukarela"
+        android:inputType="number"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btnSetor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Setor Simpanan"
+        android:backgroundTint="@color/primary_green"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>

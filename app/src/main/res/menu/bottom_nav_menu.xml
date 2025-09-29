@@ -1,0 +1,7 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/homeFragment" android:icon="@drawable/ic_home" android:title="Home"/>
+    <item android:id="@+id/profileFragment" android:icon="@drawable/ic_person" android:title="Profile"/>
+    <item android:id="@+id/simpananFragment" android:icon="@drawable/ic_savings" android:title="Simpanan"/>
+    <item android:id="@+id/pinjamanFragment" android:icon="@drawable/ic_money" android:title="Pinjaman"/>
+    <item android:id="@+id/riwayatFragment" android:icon="@drawable/ic_history" android:title="Riwayat"/>
+</menu>
